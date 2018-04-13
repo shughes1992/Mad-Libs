@@ -1,0 +1,23 @@
+{
+  "name": "madlibs",
+  "description": "a nice little CLI app for playing Mad Libs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape tests/*.js tests/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal.github.com:4kategreen/madlibs.git"
+  },
+  "author": "Kate Green <kate@fugue.co>; Leslie Passante <leslie@fugue.co>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "~5.1.0"
+  },
+  "devDependencies": {
+    "tap-spec": "~4.1.1",
+    "tape": "~4.9.0"
+  }
+}
